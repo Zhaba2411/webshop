@@ -8,9 +8,9 @@ namespace WebshopRepository
 {
     public interface IWebshopRepository
     {
-        WebshopItem Get(Guid todoId, Guid userId);
-
         void Add(WebshopItem webshopItem);
+        bool Remove(WebshopItem webshopItem);
+        List<Order> GetAllOrders(string userId);
 
     }
 }

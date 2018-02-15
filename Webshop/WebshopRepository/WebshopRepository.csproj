@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cart.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="WebshopItem.cs" />
     <Compile Include="IWebshopRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
